@@ -1,7 +1,6 @@
 name: Hello Actions
 
-on: 
-  - push: [main]
+on: [push: main]
 
 jobs:
   greet:
