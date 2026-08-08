@@ -1,0 +1,10 @@
+name: Hello Actions
+
+on: push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 인사하기
+        run: echo "Hello, Actions! TasfFlow의 첫 워크플로입니다."
