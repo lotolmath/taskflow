@@ -1,1 +1,1 @@
-console.log("첫번째 Actions");
+document.write("첫번째 Actions");
